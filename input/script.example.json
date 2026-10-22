@@ -1,0 +1,40 @@
+{
+  "title": "AI 生活进行时",
+  "gap": 0.4,
+  "video": {
+    "theme": "ink",
+    "bg": "",
+    "circle": "",
+    "cover": "",
+    "no_circle": false,
+    "sub_size": 0,
+    "title_size": 0,
+    "who_size": 0,
+    "who_y": 0.455,
+    "font": "",
+    "sub_color": "",
+    "sub_margin": 0.045,
+    "scrim": 0.45,
+    "accent": "",
+    "visual": "wave",
+    "speaker_tag": false,
+    "progress": true
+  },
+  "speakers": {
+    "A": {
+      "name": "主播",
+      "ref": "../../tools_aigc_GPT-SoVITS/GPT-SoVITS-v2pro-20250604/ref/ref2_9s.wav",
+      "ref_text": "参考音频里原封不动说的话",
+      "gpt": "../../tools_aigc_GPT-SoVITS/GPT-SoVITS-v2pro-20250604/GPT_weights_v2Pro/voice_liuyue-e15.ckpt",
+      "sovits": "../../tools_aigc_GPT-SoVITS/GPT-SoVITS-v2pro-20250604/SoVITS_weights_v2Pro/voice_liuyue_e8_s176.pth"
+    },
+    "B": {
+      "name": "AI",
+      "engine": "openai",
+      "base_url": "https://api.siliconflow.cn/v1/audio/speech",
+      "model": "FunAudioLLM/CosyVoice2-0.5B",
+      "voice": "anna",
+      "api_key": "sk-你的key"
+    }
+  }
+}

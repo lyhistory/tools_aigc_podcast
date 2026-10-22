@@ -1,0 +1,26 @@
+# Generated videos, audio, caches and intermediate files
+output/
+
+# Python runtime files
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local production inputs. Keep only the example templates and folder guides.
+input/*
+!input/script.example.txt
+!input/script.example.json
+!input/broll/
+!input/lines/
+!input/ref/
+input/broll/*
+input/lines/*
+input/ref/*
+!input/broll/_README.txt
+!input/lines/_README.txt
+!input/ref/_README.txt
+
+# OS and editor files
+.DS_Store
+Thumbs.db
